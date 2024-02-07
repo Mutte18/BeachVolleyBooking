@@ -14,6 +14,7 @@ Uppgifter som behövs vid registrering av ett konto:
 * För och efternamn
 * Personnummer
 * Emailaddress
+* Lösenord(?)
 
 
 
@@ -24,8 +25,11 @@ Tekniker för detta projekt:
 * MySQL (databas)
 * Swish integration
 * Webbserver
+* Webbdomän
+* Test-sida?
 * Github Actions (CI-CD)
 * Testning
+* Bcrypt för kryptera lösenord
 
 
 Vad en användare ska kunna göra på sidan:
@@ -35,10 +39,17 @@ Vad en användare ska kunna göra på sidan:
 * Boka plan
 * Ta bort bokning
 * Ändra bokningstid
+* Läsa information om föreningen
+* Se karta vart planerna är
+* Se GDPR information
 
 Vad en Admin ska kunna göra på sidan:
 * Blockera användare
 * Återaktivera användare
 * Ge medlemskap manuellt till användare
 * Ta bort medlemskap från användare
+* Ta bort bokning
+* Boka åt någon annan
+* Lista på alla användare
 * 
+
