@@ -1,6 +1,6 @@
-Bokningshemsida för Beachvolley i Skövde
+# Bokningshemsida för Beachvolley i Skövde
 
-Krav:
+## Krav:
 * Betalande medlemmar ska kunna boka planer utan kostnad
 * Skapa ett konto genom hemsidan, och får ett email skickat till en med en verifieringslänk
 * Vid framtida inloggningar skriver man email, och får ett email skickat till en med inloggningslänk 
@@ -10,7 +10,7 @@ Krav:
 * 
 
 
-Uppgifter som behövs vid registrering av ett konto:
+## Uppgifter som behövs vid registrering av ett konto:
 * För och efternamn
 * Personnummer
 * Emailaddress
@@ -18,9 +18,9 @@ Uppgifter som behövs vid registrering av ett konto:
 
 
 
-Tekniker för detta projekt:
+## Tekniker för detta projekt:
 * Docker (för lokal miljö)
-* Node (backend)
+* Python (backend)
 * Vue eller Angular (frontend)
 * MySQL (databas)
 * Swish integration
@@ -32,7 +32,7 @@ Tekniker för detta projekt:
 * Bcrypt för kryptera lösenord
 
 
-Vad en användare ska kunna göra på sidan:
+## Vad en användare ska kunna göra på sidan:
 * Registrera konto
 * Logga in
 * Betala medlemskap
@@ -43,7 +43,7 @@ Vad en användare ska kunna göra på sidan:
 * Se karta vart planerna är
 * Se GDPR information
 
-Vad en Admin ska kunna göra på sidan:
+## Vad en Admin ska kunna göra på sidan:
 * Blockera användare
 * Återaktivera användare
 * Ge medlemskap manuellt till användare
@@ -53,3 +53,28 @@ Vad en Admin ska kunna göra på sidan:
 * Lista på alla användare
 * 
 
+
+# Komponenter som behövs:
+Endpoints i Python:
+* Login
+* Logout
+* verifyEmail
+* Reset password
+* encryptPassword
+* Starta swish betalning
+* createAccount
+* blockAccount
+* unblockAccount
+* payMembership
+* bookACourt
+* removingBooking
+* editBooking
+
+# Databas tabeller:
+* sessions?
+* accounts
+* passwords
+* user_information
+* membership
+* bookings
+* court_schedule
