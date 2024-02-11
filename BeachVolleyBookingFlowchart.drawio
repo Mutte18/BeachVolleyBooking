@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T20:29:14.396Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jQC0pUbA0DQKnFw05-S2" version="22.0.8" type="device" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-02-11T20:09:03.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="SC_3CnxK67W1lSQkdwam" version="23.1.2" type="device" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Book a court">
-    <mxGraphModel dx="1468" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1161" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -126,11 +126,134 @@
         <mxCell id="Bks4ob9Q867alq6zcvI_-0" value="HUR VERIFIERAR VI ATT MAN BETALAT AVGIFT?" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="903.75" y="130" width="137.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dcG9m_TRaosMfiAb5hAf-0" value="Kika om det går att integrera med idrottOnline för att få tag på medlemsregister" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dcG9m_TRaosMfiAb5hAf-0" value="Kika om det går att integrera med idrottOnline för att få tag på medlemsregister" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="880" y="490" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="dcG9m_TRaosMfiAb5hAf-1" value="https://www.rf.se/bidrag-och-stod/it-tjanster/integration&lt;br&gt;&lt;br&gt;https://www.swish.nu/teknisk-guide" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dcG9m_TRaosMfiAb5hAf-1" value="https://www.rf.se/bidrag-och-stod/it-tjanster/integration&lt;br&gt;&lt;br&gt;https://www.swish.nu/teknisk-guide" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="883" y="630" width="174" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-0" target="JAfvluUh3_bAv6CJidtr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-0" value="A new player goes to skovdevolley.se" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-1" target="JAfvluUh3_bAv6CJidtr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-1" value="Player clicks Join Now!" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-3" target="JAfvluUh3_bAv6CJidtr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-3" value="&lt;div&gt;Shown a registration form consisting of:&lt;/div&gt;&lt;div&gt;1. Email,&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Password, &lt;br&gt;&lt;/div&gt;&lt;div&gt;3. First and Lastname&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. Personalnumber&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="1470" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-8" target="JAfvluUh3_bAv6CJidtr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-8" value="An existing player wants to log in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="1590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-9" target="JAfvluUh3_bAv6CJidtr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-9" value="Player clicks Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="1590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-11" target="JAfvluUh3_bAv6CJidtr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-11" value="Shown a Login form, requiring Email and password, and a login button" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-13" value="Taken to startpage" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-16" target="JAfvluUh3_bAv6CJidtr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-16" value="A logged in player who hasn&#39;t paid membership" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="1810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-17" target="JAfvluUh3_bAv6CJidtr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-17" value="Is shown a closable notification in the top of the screen stating &quot;Your membership for this season (2024) is not active. &quot;Click here to pay membership&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355" y="1810" width="325" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-19" value="Taken to payments page where you can pay with Swish" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="862.5" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-22" target="JAfvluUh3_bAv6CJidtr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-22" value="A player who goes to booking page without being logged in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="2050" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-23" value="Can see and view bookings. But cannot make any booking themselves - is shown &quot;You must be logged in to do this&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="387.5" y="2050" width="152.5" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-25" target="JAfvluUh3_bAv6CJidtr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-25" value="A logged in player without active membership going to booking page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="152.5" y="2180" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-26" value="When trying to book a court, is shown &quot;You need an active membership to book a court&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="2195" width="165" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-28" target="JAfvluUh3_bAv6CJidtr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-28" value="A verification email is sent to the email" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="810" y="1470" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-30" value="Player clicks the verification email and their account is activated - and that they now can try to login" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1470" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-34" target="JAfvluUh3_bAv6CJidtr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-34" value="An existing player without verified email tries to log in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="167.5" y="1700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-37" value="Is shown an error message that email is not verified. &quot;Click here to resend verification email&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="367.5" y="1710" width="132.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-39" target="JAfvluUh3_bAv6CJidtr-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-39" value="A logged in player, with active membership tries to book a court" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="2338" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-40" target="JAfvluUh3_bAv6CJidtr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-40" value="Selects an available timeslot, and chooses how many hours (max 2) and clicks Submit" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="367.5" y="2350" width="192.5" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-42" value="Is shown a success message and the GUI shows the timeslot as green" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="2340.25" width="183.75" height="126.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-44" target="JAfvluUh3_bAv6CJidtr-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-44" value="A logged in player, with active membership wants to edit a booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="147.5" y="2530" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-45" value="Clicks on the green timeslot in the schedule, and is taken to a page to edit the booking - Can choose different timeslots and then click edit to update their timeslot" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="371" y="2545" width="180" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JAfvluUh3_bAv6CJidtr-47" target="JAfvluUh3_bAv6CJidtr-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-47" value="A logged in player, with active membership wants to cancel a booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="152.5" y="2710" width="135" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JAfvluUh3_bAv6CJidtr-48" value="Clicks on the green timeslot in the schedule, and taken to a page to edit the booking. Can click on &quot;Cancel booking&quot; and it will be removed from the schedule" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="2725" width="175" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
