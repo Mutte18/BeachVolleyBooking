@@ -70,6 +70,8 @@ Endpoints i Python:
 * removingBooking
 * editBooking
 
+Sessionshantering med Flask? https://testdriven.io/blog/flask-spa-auth/ https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login
+
 # Databas tabeller:
 * sessions?
 * accounts
