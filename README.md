@@ -80,3 +80,12 @@ Sessionshantering med Flask? https://testdriven.io/blog/flask-spa-auth/ https://
 * membership
 * bookings
 * court_schedule
+
+
+Flask:
+https://flask.palletsprojects.com/en/3.0.x/
+    AuthToken: https://realpython.com/token-based-authentication-with-flask/
+
+Python:
+https://docs.python.org/3/tutorial/
+
