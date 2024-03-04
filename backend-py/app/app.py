@@ -1,9 +1,18 @@
 from flask import Flask, jsonify, request
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
+import mysql.connector
 
 app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = "secret"
 jwt = JWTManager(app)
+
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="kalle",
+    password="Abcd1234"
+)
+print(mydb)
+print(mydb)
 
 
 @app.route('/login', methods=['POST'])
