@@ -1,0 +1,13 @@
+.flex {
+  width: 500px;
+  height: 500px;
+  border: 1px black dashed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-field {
+  width: 50px;
+}
